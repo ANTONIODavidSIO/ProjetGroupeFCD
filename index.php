@@ -231,8 +231,6 @@ function affiche_articles()
                                 ?>
                                 <div class="bouton">
                                 <a href="wysiwyg.php"><button>Ecrire un nouvel article </button></a>
-                                    
-                                sssQDFSQFDQSFDQS 
                                 </div>
                                 <?php
                                 affiche_articles();
