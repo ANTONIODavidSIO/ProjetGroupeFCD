@@ -4,7 +4,7 @@
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/ANTONIODavidSIO/ProjetGroupeFCD.git'
+                checkout scm
             }
         }
         
