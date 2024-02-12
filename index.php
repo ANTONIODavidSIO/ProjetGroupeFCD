@@ -230,7 +230,8 @@ function affiche_articles()
                                 include("recherche.php");
                                 ?>
                                 <div class="bouton">
-                                <a href="wysiwyg.php"><button>Ecrire un nouvel articles </button></a>
+                                <a href="wysiwyg.php"><button>Ecrire un nouvel article </button></a>
+                                <p>fqdq</p>
                                 </div>
                                 <?php
                                 affiche_articles();
