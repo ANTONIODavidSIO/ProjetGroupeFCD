@@ -1,0 +1,211 @@
+html,
+body {
+
+  margin: 0;
+
+  height: 100%;
+
+  font-family: "Varela Round", sans-serif;
+
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.LoginBox {
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.Accueil {
+  background-image: url('image/connect.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.UserInfo {
+  display: flex;
+  padding-top: 350px;
+  gap: 20px;
+
+}
+
+
+
+.User {
+  display: flex;
+  height: 200px;
+}
+
+.Background {
+  background-image: url('image/LoginPage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 740px;
+}
+
+.Border {
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 50px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.imageBack {
+  background-image: url('image/AdminBis.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.imageBackBis {
+  background-image: url('image/AdminBis.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+}
+
+.img {
+  height: 2000px;
+  padding-top: 330px;
+  width: 1518px;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  height: 0px;
+}
+
+.decal {
+  padding-top: 7%;
+  padding-left: 20%;
+}
+
+#button-back {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 4.3%;
+  padding-right: 4.5%;
+}
+
+.Container {
+  display: flex;
+  background-color: black;
+
+
+
+}
+
+.image {
+  display: flex;
+  height: 150px;
+  width: 150px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  gap: 20px;
+}
+
+
+
+.Box {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 5%;
+  z-index: 1;
+}
+
+.Titre {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: white;
+
+}
+
+.Branche {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 50px;
+
+}
+
+.affichage {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-left: 20%;
+}
+
+@media (min-width: 375px) and (max-width :1411px) {
+  .Container {
+    height: 131px;
+    width: 251px;
+  }
+
+  .avatar {
+    height: 131px
+  }
+
+
+}
+
+@media (min-width: 320px) and (max-width :1528px) {
+  .Background {
+    display: flex;
+    background-image: url('image/portable.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Border {
+    padding: 0%;
+  }
+
+
+}

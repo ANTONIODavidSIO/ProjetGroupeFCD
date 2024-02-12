@@ -1,0 +1,327 @@
+html {
+  height: 100%;
+}
+
+body {
+
+  margin: 0;
+
+  height: 100%;
+
+  font-family: "Varela Round", sans-serif;
+
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.LoginBox {
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.Accueil {
+  background-image: url('/TP-wiki-Gabriel-Gabin-Marie/image/connect.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1080px;
+}
+
+.UserInfo {
+  padding-top: 400px;
+  gap: 15px;
+
+}
+
+.select {
+  border: 2px solid #555;
+}
+
+.Searchform {
+  display: flex;
+  justify-content: center;
+  padding-left: 5%;
+  gap: 1;
+  margin-top: 225px;
+}
+
+.User {
+  display: flex;
+  overflow: auto;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.Background {
+  display: flex;
+  background-image: url('/TP-wiki-Gabriel-Gabin-Marie/image/LoginPage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: top;
+}
+
+.Border {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 50px;
+  width: 200px;
+  margin: auto;
+}
+
+.imageBack {
+  background-image: url('/TP-wiki-Gabriel-Gabin-Marie/image/AdminTest.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  height: 100%;
+}
+
+.imageBackBis {
+  background-image: url('/TP-wiki-Gabriel-Gabin-Marie/image/AdminBis.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  height: 100%;
+
+}
+
+.img {
+  height: 2000px;
+  width: 1518px;
+
+}
+
+.User img {
+  height: 200px;
+  width: 200px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  height: 0px;
+}
+
+.result {
+  padding-left: 1%;
+}
+
+.decal {
+  padding-top: 20%;
+  padding-left: 25%;
+  padding-right: 10%;
+}
+
+#button-back {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 4.3%;
+  padding-right: 4.5%;
+}
+
+#button-return {
+  display: flex;
+
+  padding-top: 4.3%;
+  padding-right: 4.5%;
+}
+
+
+.Container {
+  display: flex;
+  background-color: black;
+  height: 225px;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+}
+
+.image {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 35px;
+  padding-right: 130px;
+
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  gap: 20px;
+}
+
+
+
+.Box {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.Titre {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: white;
+
+}
+
+.Branche {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 50px;
+
+}
+
+.affichage {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.historique {
+  color: white;
+  padding-top: 15%;
+  padding-left: 20%;
+  padding-right: 5%;
+}
+
+@media (max-width: 426px) {
+  .decal {
+    padding-top: 400px;
+    padding-left: 5%;
+  }
+
+  .imageBackBis {
+    background-image: url('/TP-wiki-Gabriel-Gabin-Marie/image/AdminBis.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    height: 1433px;
+
+  }
+
+  #button-back {
+    display: block;
+    justify-content: flex-start;
+    padding-top: 0%;
+    padding-right: 0%;
+  }
+
+  .historique {
+    color: white;
+    padding-top: 400px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+
+  .image {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 35px;
+    padding-right: 237px;
+
+  }
+
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+  .decal {
+    padding-top: 300px;
+    padding-left: 45%;
+  }
+
+  .historique {
+    color: white;
+    padding-top: 40%;
+    padding-left: 45%;
+    padding-right: 5%;
+  }
+}
+
+button {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 4px double #000000;
+  text-align: center;
+  font-size: 15px;
+  padding: 7px;
+  width: 230px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #d1d1d1;
+}
+button:hover span {
+  padding-right: 25px;
+}
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.bouton  {
+  display: flex;
+  justify-content: center;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
